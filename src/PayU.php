@@ -12,7 +12,7 @@ use Jlorente\PayU\PayU\api\SupportedLanguages;
  * @version 1.0.0, 20/10/2013
  *
  */
-class PayU
+abstract class PayU
 {
 
     /**
@@ -29,26 +29,26 @@ class PayU
     /**
      * The method invocation is for testing purposes
      */
-    public $isTest = false;
+    public static $isTest = false;
 
     /**
      * The merchant API key
      */
-    public $apiKey = null;
+    public static $apiKey = null;
 
     /**
      * The merchant API Login
      */
-    public $apiLogin = null;
+    public static $apiLogin = null;
 
     /**
      * The merchant Id
      */
-    public $merchantId = null;
+    public static $merchantId = null;
 
     /**
      * The request language
      */
-    public $language = SupportedLanguages::ES;
+    public static $language = SupportedLanguages::ES;
 
 }
