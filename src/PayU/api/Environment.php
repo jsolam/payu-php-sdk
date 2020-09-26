@@ -35,13 +35,13 @@ class Environment
     private static $subscriptionsUrl = "https://api.payulatam.com/payments-api/rest/v4.3";
 
     /** url used to subscriptions service api  if the test variable is true */
-    private static $paymentsTestUrl = "https://api.payulatam.com/payments-api/4.0/service.cgi";
+    private static $paymentsTestUrl = "https://sandbox.api.payulatam.com/payments-api/4.0/service.cgi";
 
     /** url used to reports service api  if the test variable is true */
-    private static $reportsTestUrl = "https://api.payulatam.com/reports-api/4.0/service.cgi";
+    private static $reportsTestUrl = "https://sandbox.api.payulatam.com/reports-api/4.0/service.cgi";
 
     /** url used to subscriptions service api  if the test variable is true */
-    private static $subscriptionsTestUrl = "https://api.payulatam.com/payments-api/rest/v4.3";
+    private static $subscriptionsTestUrl = "https://sandbox.api.payulatam.com/payments-api/rest/v4.3";
 
     /** url used to subscriptions service api  if is not null */
     private static $paymentsCustomUrl = null;
