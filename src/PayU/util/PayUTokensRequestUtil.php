@@ -2,6 +2,7 @@
 
 namespace Jlorente\PayU\PayU\util;
 
+use Jlorente\PayU\PayU;
 use Jlorente\PayU\PayU\api\PayUCommands;
 use Jlorente\PayU\PayU\api\PayUConfig;
 

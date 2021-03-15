@@ -3,6 +3,7 @@
 namespace Jlorente\PayU\PayU\util;
 
 use InvalidArgumentException;
+use Jlorente\PayU\PayU;
 
 /**
  *
