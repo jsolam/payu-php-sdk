@@ -485,6 +485,7 @@ class RequestPaymentsUtil extends CommonRequestUtil
     {
         $creditCard = new \stdClass();
         $creditCard->securityCode = CommonRequestUtil::getParameter($parameters, PayUParameters::CREDIT_CARD_SECURITY_CODE);
+        $creditCard->processWithoutCvv2 = (bool) CommonRequestUtil::getParameter($parameters, PayUParameters::PROCESS_WITHOUT_CVV2);
         return $creditCard;
     }
 
